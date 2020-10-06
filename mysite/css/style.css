@@ -10,11 +10,11 @@ body {
 a {
     text-decoration: none;
 }
-a:focus {
+/* a:focus {
     outline-style: solid;
     outline-width: 4px;
-    outline-color:rgba(191, 170, 239, 1);
-}
+    outline-color:rgba(191, 170, 239, 0.9);
+} */
 
 /* BUTTONS ---------------------------------------- */
 .buttonLT:hover{
@@ -55,7 +55,9 @@ a:focus {
 .button2:hover{
     background-color:#F4DFB8;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
-
+}
+.fsc-button{
+    padding-bottom:8px;
 }
 /* COLORS ---------------------------------------- */
 .grayNeutral{
