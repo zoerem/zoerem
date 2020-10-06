@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zoe Rem</title>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet" type="text/css"> 
+        <link href="../images/zr-trans.png" rel="icon" type="image/png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../js/script.js"> </script>   
+        <!-- Hotjar Tracking Code for https://zoerem.github.io/ZR-repo/mysite/zoerem.htm -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:2023145,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    </head>
+    <body class="h-green">
+        <header>
+            <div class="navbarContainer">
+                <a href="../index.html" id="homeLink">zoe rem</a>
+                <nav>
+                    <ul>
+                        <li><a href="about.html" class="navListItem">about</a></li>
+                        <li><a href="work.html" class="navListItem">work</a></li>
+                        <li><a href="../images/zoeremresume.pdf" class="navListItem">resume</a></li>
+                        <li><a href="mailto:zoerem@gmail.com" class="navListItem" target="_blank">contact</a></li>
+                    </ul>    
+                </nav>
+            </div>
+        </header>  
+        <section>
+            <div class="page-intro cs-intro">
+                <div class="page-intro-LF">
+                    <h2>
+                        U.S. Arctic Research Commission.
+                    </h2>
+                    <p class="pad-top- 6">
+                        The USARC is a small government agency that provides Arctic policy recommendations to the U.S. government through research and community outreach. 
+                        Their site had not been updated since 2006 and our team made a responsive redesign addressing the main issues our research found. 
+                    </p>
+                    <h5 class="pad-top-5"> 
+                        the deets
+                    </h5>
+                    <p class="line-height">
+                        Team of four 
+                        <br>
+                        Duration: Five weeks | Jul-Aug 2020
+                        <br>
+                        Client: UC Berkeley UXUI Bootcamp
+                    </p>
+                    <h5 class="pad-top-6"> 
+                        my role
+                    </h5>
+                    <p class="line-height">
+                        UX Researcher
+                        <br>
+                        UX Architect 
+                        <br>
+                        Interaction Designer
+                    </p>
+                </div>
+                <div class="page-intro-RT">
+                    <img src="../images/USARC/USARC-hero.png" class="cs-hero">   
+                </div>
+            </div>
+            <div class="problem-section">
+                <div>
+                    <h3>
+                        the problems.
+                    </h3>
+                    <p class="text-wrap">
+                        Through heuristic evaluation and usability testing of the current site, we found that 
+                        the biggest hurdle to completing tasks were the inconsistent headers and confusing labeling. 
+                        Some other key issues were:                    </p>
+                    <ul class="text-wrap">
+                        <li>No mobile responsiveness</li>
+                        <li>Major navigation issues: secondary nav bar replacing primary nav bar, home button no longer going home, logo only sometimes going home, etc.  </li>
+                        <li>Busy homepage with lack of hierarchy and direction</li>
+                        <li>Accessibility concerns with logo and text colors</li>
+                    </ul>
+                </div>
+                <div class="section-right">
+                    <img src="../images/USARC/USARC-current-site.png" class="current-site pad-top-3.5">
+                </div>
+                <div class="usarc-rwd-images">
+                        <img src="../images/USARC/many-navbars.png" class="usarc-rwd1 pad-top-6">
+                        <img src="../images/USARC/navbar-acronyms.png" class="usarc-rwd2">
+                        <img src="../images/USARC/mobile-non-responsive.png" class="pad-top-4 usarc-rwd3">                        
+                 </div>
+            </div>
+            <div class="section-marg-side">
+                <h3 class="pad-top-2">
+                    research.
+                </h3>
+                <p class="text-wrap">We conducted five interviews and five usability tests based on our proto persona: 
+                    <span class="greenDark pbold" id="proto-persona"> Rick Beauregard</span>, a mid-40s researcher living in Alaska.
+                </p>
+                <h4 class="pad-top-5 marg-btm-none">
+                    interviews <span class="thin"> &nbsp;|&nbsp; </span> 5
+                </h4>  
+            </div>
+             <!-- Proto-persona pop up modal! -->
+            <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="proto-content" id="img01">
+            </div>
+            <div class="research-section section-marg-side pad-top-3">
+                <div class="interview-cards" id="usarc-research-cards">
+                    <img src="../images/USARC/people_illustrations/female-user1-illustration.png" id="usarc-research-img">
+                    <img src="../images/USARC/green-quote.png" class="quotes">
+                    <p>
+                        A lot of the things I need, specifically, can be hard to find.                    
+                    </p>
+                </div>
+                <div class="interview-cards">
+                    <img src="../images/USARC/people_illustrations/male-user1-illustration.png" id="usarc-research-img">
+                    <img src="../images/USARC/green-quote.png" class="quotes">
+                    <p>
+                        It’s not for the layman. I always imagine it might be hard for computer not-savvy people to navigate.                    
+                    </p>
+                </div>
+                <div class="interview-cards" id="usarc-research-cards">
+                    <img src="../images/USARC/people_illustrations/female-user2-illustration.png" id="usarc-research-img">
+                    <img src="../images/USARC/green-quote.png" class="quotes">
+                    <p>
+                        There’s a lot going on. Not every single thing needs to have it’s own tab.
+                    </p>
+                </div>
+            </div>
+            <h4 class="pad-top-4 section-marg-side">
+                usability tests <span class="thin"> &nbsp;|&nbsp; </span> 4
+            </h4> 
+            <div class="research-section section-marg-side">
+                <div class="interview-cards marg-top-2">                    
+                    <img src="../images/USARC/percent-100.png" class="interview-img">
+                    <p id="survey-p">
+                        get overwhelmed by too much information and too many links and options                       
+                    </p>
+                </div>
+                <div class="interview-cards marg-top-2">               
+                    <img src="../images/USARC/percent-60.png" class="interview-img">
+                    <p>
+                        proved our assumptions wrong, and understand the meaning of the label “Publications” 
+                    </p>
+                </div>   
+            </div>   
+            <p class="section-marg-side"> 
+                We compiled all of our research into <span class="greenDark pbold" id="usarc-persona">Jessica Holmes</span>, our user persona.
+            </p>
+            <div id="myModal1" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="proto-content" id="img03">
+            </div>
+            <div class="section-marg-side">
+                <h3 class="pad-top-2">
+                    information architecture.
+                </h3>
+                <p class="pad-top-5 marg-btm-none">
+                    Per our research and client interview, we know <span class="pbold">a primary reason users go to the site is to find documents 
+                    and research published by the organization.</span> Users defied our assumptions and had no problem associating the 
+                    location for these files as Publications so we scrapped our initial idea of changing the name. However, we 
+                    wanted <span class="pbold">to organize all of the publications under one location instead of the seven </span>pages they currently occupy. 
+                </p>
+                <div class="card-sorting-section pad-top-5">
+                    <div>
+                        <h5 class="norm">
+                            before
+                        </h5>
+                        <img src="../images/USARC/card-sorting-1.png">
+                    </div>
+                    <div>
+                        <h5 class="norm">
+                            after
+                        </h5>
+                        <img src="../images/USARC/card-sorting-2.png">
+                    </div>
+                </div>
+                <h4 class="pad-top-3-5">
+                    site map: original
+                </h4> 
+                <img src="../images/USARC/USARC-sitemap-original.png" class="interview-img pad-top-6">
+                <h4 class="pad-top-3-5">
+                    site map: revised
+                </h4> 
+                <img src="../images/usarc/USARC-sitemap-NEW.png" class="interview-img pad-top-6">
+                <div class="center-box">
+                    <p id="sitemap-results" class="greenDark">
+                        56%
+                    </p>
+                    <p id="sitemap-results1" class="greenDark">
+                        reduction in menu options
+                    </p>
+                    <p class="text-wrap text-center">
+                        We categorized ALL publications together, eliminated every sub page that 
+                        contained only a secondary nav, and combined pages containing similar content. 
+                    </p>
+                </div>
+            </div> 
+            <div class="section-marg-side">
+                <h3 class="pad-top-2">
+                    lo-fi wireframing, prototyping and testing.
+                </h3>
+                <h4 class="pad-top-4 marg-btm-none">
+                    sketched wireframes
+                </h4> 
+                <p class="text-wrap">
+                    We started with mobile first as is best practice, and spent a long time deliberating the nav bar layout. 
+                </p>
+            </div>
+            <div class="FSC-sketch" class="FSC-sketch" id="USARC-sketch">
+                <img src="../images/USARC/nav-sketches.png" alt="hand drawn wireframe sketches" id="USARC-sketch-img">
+            </div>
+            <p class="sketch-p pad-top-5 section-marg-side">
+                Because we had drastically reduced the number of menu options, we discussed implementing a visible navbar 
+                with most either all or the most popular items displayed. 
+            </p>
+            <h4 class="section-marg-side pad-top-3 marg-btm-none">
+                    low fidelity wireframes
+            </h4> 
+            <div class="lofi-usarc marg-top-3"> 
+                <img src="../images/USARC/USARC-lofi-frames1.png">
+            </div>  
+            <h4 class="section-marg-side pad-top-3 marg-btm-none">
+                A/B testing  <span class="thin"> &nbsp;|&nbsp; </span>  5 tests           
+            </h4> 
+            <p class="sketch-p pad-top-5 section-marg-side">
+                To resolve our deliberations about the nav bar layout, we did A/B testing on the hamburger menu and the visible nav. 
+            </p> 
+            <div class="ab-tests">
+                <div>   
+                    <h5 class="norm">
+                        Test A: hamburger only
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/lofi-header-ham-only.png" alt="lofi wireframe of header with hamburger">
+                </div>
+                <div>
+                    <h5 class="norm">
+                        Test B: visible nav + hamburger
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/lofi-header-both.png" alt="lofi wireframe of header with hamburger">
+                </div>
+            </div>
+            <div class="section-marg-side flex-wrap pad-top-1">
+                <div>
+                    <h5>
+                        the results:         
+                    </h5> 
+                    <p class="sketch-p">
+                        When available, users preferred the visible nav bar.  Because of our reduced menu items, we can eliminate the hamburger all together and make all items immediately visible! One of our users summed it up perfectly &xrarr;
+                    </p> 
+                </div>
+                <div class="interview-cards" id="ab-results">
+                    <img src="../images/USARC/people_illustrations/male-user2-illustration.png" id="usarc-research-img">
+                    <img src="../images/USARC/green-quote.png" class="quotes">
+                    <p>
+                        The visible menus are a better way to go so I don’t have to keep going back up and clicking a link to find what I want. It’s an extra step, and we’re lazy as a species.            
+                    </p>
+                </div>
+            </div>
+            <div class="section-marg-side">
+                 <h5 class="norm">
+                    iterated header
+                </h5>
+                <p>With only four nav options instead of nine, who needs a hamburger?</p>
+                <img class="lofi-headers pad-top-5" src="../images/USARC/USARC_LO-FI_FINAL HEADER.png" alt="lofi wireframe of header with visible nav bar">
+            </div>
+            <h4 class="section-marg-side pad-top-1">
+                the five second test <span class="thin"> &nbsp;|&nbsp; </span> 18 tests         
+            </h4>    
+            <div class="section-marg-side flex-wrap pad-top-2">
+                <div class="flex-column">
+                    <p>
+                        <span class="pbold">The Problem: </span> Testers were not clear about the USARC’s mission. They recognize the what, but not the why.                     
+                    </p> 
+                    <div class="interview-cards" id="fivesec">
+                        <img src="../images/USARC/people_illustrations/male-user3-illustrations.png" id="usarc-research-img">
+                        <img src="../images/USARC/green-quote.png" class="quotes">
+                        <p>
+                            It’s about the Arctic... I am assuming it has something to do with the environment, but I don’t know. 
+                        </p>
+                    </div>
+                </div>                
+                <div class="flex-column">
+                    <p>
+                        <span class="pbold">The Solution: </span> A tagline describing the primary functions and goals of the USARC:                   
+                    </p> 
+                    <div class="usarc-tagline">
+                        <p class="greenDark">
+                            <strong>INFORMING POLICY</strong> 
+                            <br> THROUGH RESEARCH
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center pad-top-4">
+                Homepage v.2
+            </p>
+            <div class="lofi-usarc pad-top-5"> 
+                <img id="lofi-usarc2" src="../images/USARC/USARC-iterated-lofi-frames.png">
+            </div>  
+            <div class="section-marg-side">
+                <h3 class="pad-top-2">
+                    hi-fi wireframing, prototyping and testing.
+                </h3>
+                <h4 class="pad-top-4">
+                    high fidelity wireframing
+                </h4> 
+            </div>
+            <div class="FSC-hifi">
+                <img src="../images/USARC/USARC-hifi-display-2.png" alt="high fidelity mock ups" id="USARC-hifi-desk"> 
+            </div>
+            <p class="section-marg-side text-wrap-600 pad-top-5">
+                Our style guide implemented five key words: magical, passionate, trustworthy, leader and intellectual. 
+                We tried to embody these words in our design, representing the magesty of the arctic married to the authoritative 
+                truths of this respectable agency. 
+            </p>
+            <h4 class="section-marg-side pad-top-1">
+                more usability testing <span class="thin"> &nbsp;|&nbsp; </span> 5 tests 
+            </h4>
+            <div class="test-results">
+                <div class="test-result-left" id="usarc-test2">
+                    <div>
+                        <img src="../images/USARC/green-plus.png    " alt="plus sign">
+                    </div>
+                    <div class="test-result-p" id="usarc-test-p">
+                        <p>
+                            All users successfully completed all tasks. Our reduced nav bar is clear and easy to use.
+                        </p>
+                    </div>
+                </div>
+                <div class="test-result-right" id="usarc-test2">
+                    <div>
+                        <img src="../images/USARC/green-minus.png" alt="minus sign">
+                    </div>
+                    <div class="test-result-p" id="usarc-test-p">
+                        <p>
+                            When moving from mobile to desktop the configuration in Publications was not accurately represented and it caused confusion among testers.                         
+                        </p>
+                        <p>     
+                            The first draft of our homepage featured a darker design to imbue magic, but this was too disconnected from interior pages.                         
+                        </p>
+                        <p>
+                            Our headers on both mobile and desktop were larger than they needed to be.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h4 class="section-marg-side pad-top-4">
+                high fidelity iteration 
+            </h4>
+            <div class="hifi-iterations">
+                <div>   
+                    <h5 class="norm">
+                        publications v.1
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/Pub-before-after/pubs_v1.png" alt="hi-fi wireframe iteration 1">
+                </div>
+                <div>
+                    <h5 class="norm">
+                        publications v.2
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/Pub-before-after/pubs_v2.png" alt="hi-fi wireframe iteration with new buttons">
+                </div>
+                <div>
+                    <h5 class="norm">
+                        publications v.3
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/Pub-before-after/pubs_v3.png" alt="hi-fi wireframe iteration with icons instead of colors">
+                </div>
+            </div>
+            <div class="ab-tests pad-top-3">
+                <div>   
+                    <h5 class="norm">
+                        home v.1
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/Homepage-before-after/home_v1.png" alt="hi-fi wireframe iteration 1">
+                </div>
+                <div>
+                    <h5 class="norm">
+                       home v.2
+                    </h5>
+                    <img class="lofi-headers" src="../images/USARC/Homepage-before-after/home_v2.png" alt="hi-fi wireframe iteration with new buttons">
+                </div>
+            </div>
+            <h4 class="section-marg-side pad-top-1">
+                high fidelity mobile prototype
+            </h4>
+            <div class="hifi-mob-box pad-top-4">
+                <div class="hifi-left-side">
+                    <div class="flex">
+                        <p>
+                            Click through all of the pages we built here
+                        </p> 
+                        <img src="../images/usarc/Arrow-9.png" class="pad-left scale-down">
+                    </div>    
+                    <p class="pad-top-6">
+                        - or -
+                    </p>
+                    <a href="https://www.figma.com/proto/XQrULJQ72hpWNXRyAXTvfa/08.20-Working-USARC-Hi-Fi-Desktop-and-Mobile?node-id=358%3A61&viewport=617%2C237%2C0.01587504893541336&scaling=scale-down" class="buttonLT marg-top-3">
+                        open desktop prototype
+                    </a>
+                </div>
+                <div class="hifi-right-side">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="300" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXQrULJQ72hpWNXRyAXTvfa%2F08.20-Working-USARC-Hi-Fi-Desktop-and-Mobile%3Fnode-id%3D386%253A7971%26viewport%3D208%252C459%252C0.027162348851561546%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="mobile-hifi-butt">
+                <a href="https://www.figma.com/proto/XQrULJQ72hpWNXRyAXTvfa/08.20-Working-USARC-Hi-Fi-Desktop-and-Mobile?node-id=386%3A7971&viewport=212%2C459%2C0.02700432389974594&scaling=scale-down" class="buttonLT marg-side-top">
+                    open prototype
+                </a>
+            </div>
+            <div class="section-marg-side">
+                <h3 class="pad-top-4">
+                    conclusion and next steps.
+                </h3>
+                <h5 class="pad-top-5">
+                    the results
+                </h5>
+                <img src="../images/USARC/USARC-results.png" class="results-img" alt="circle showing click reduction and increase in trustworthiness and ease of use">
+                <h5 class="pad-top-4">
+                    what we learned
+                </h5>
+                <div class="conclusion-boxes">
+                    <div class="conclusion-box">
+                        <p class="pbold pbig greenDark">
+                            More Testing Needed
+                        </p>
+                        <p>
+                            The search functionality in our publications section is complex and requires A/B testing to figure out the best organizational methods.
+                            More testing of label names would reveal if some terminology is unknown for first time or infrequent users. 
+                        </p>
+                    </div>
+                    <div class="conclusion-box">
+                        <p class="pbold pbig greenDark">
+                            Understanding
+                        </p>
+                        <p>
+                            The importance of understanding our user as well as our client was made very apparent early on: the client helped us understand what he found most important, while users contradicted our assumptions and showed us what they found most important. 
+                        </p>
+                    </div>
+                </div>    
+                <div class="the-end pad-top-1">
+                    <h2>The End</h2>
+                    <p>Full case study available upon request</p>
+                </div>
+            </div>  
+
+        </section>
+        <footer class="footer">
+            <div class="copyright">
+                <p>design by me 2020 | photography by <a href="http://rebeccahindenphotography.com" target="_blank" id="RHP">Rebecca Hinden</a>
+                </p>
+            </div>
+            <div class="social">
+                <a href="http://www.linkedin.com/in/zoerem" target="_blank" id="social-li">
+                <img src="../images/linkedin-transp.png" alt="LinkedIn page for zoe rem">
+                </a>
+            </div>
+        </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179540908-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179540908-1');
+    </script>    
+    </body>
+</html>

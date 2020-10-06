@@ -1,0 +1,75 @@
+
+
+
+.navbarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-top: 0;
+    background-color: rgba(234, 233, 235, 0.5);
+    margin:0;
+    width: 100vw;
+    z-index: 999;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    color: #20124D;
+}
+.navListItem {
+    color: #20124D;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none; 
+    padding: 0.5em;
+    margin: 0;
+    transition-duration: 0.2s;
+}
+nav a:hover {
+    background-color:rgba(191, 170, 239, 0.9);
+}
+
+#homeLink {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0;
+    color:#20124D;
+    transition-duration: 0.2s;
+}
+#homeLink:hover {
+    background-color:rgba(191, 170, 239, 0.9);
+}
+
+/* HOMEPAGE------- */
+.homeHeader{
+    height: 504px;
+    max-height: 560px;
+    background-image:url(../images/headshot_LG.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center right;
+    width: 100vw;
+    z-index: -1;
+}
+.homeH1, .homeH4, .homeH6, #buttonHero{
+    padding-left: 7%;
+}
+
+#buttonHero {
+    padding-top: 2em;
+}
