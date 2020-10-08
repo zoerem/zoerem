@@ -56,9 +56,7 @@ a {
     background-color:#F4DFB8;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
 }
-.fsc-button{
-    padding-bottom:8px;
-}
+
 /* COLORS ---------------------------------------- */
 .grayNeutral{
     color:#F1F1F1; 
@@ -794,7 +792,7 @@ svg:hover .arrow-fixed {
     margin-bottom: 0;
 }
 
-/* FSC CASE STUDY PAGE */
+/* FSC CASE STUDY PAGE ------------- */
 .cs-intro{
     padding-top: 6em;
 }
@@ -978,7 +976,7 @@ svg:hover .arrow-fixed {
 .before-after-pics{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .before-pic, .after-pic {
     flex-direction: column;  
@@ -987,6 +985,7 @@ svg:hover .arrow-fixed {
 .before-pic img, .after-pic img{
     width: 100%;
     height: auto;
+    max-width: 560px;
 }
 .hifi-left-side{
     flex-direction: column;
@@ -1116,6 +1115,7 @@ svg:hover .arrow-fixed {
     width: auto;
     height: 100%;
     max-height: 360px;
+    border-radius: 8px;
 }
 .lofi-usarc{
     display: flex;
