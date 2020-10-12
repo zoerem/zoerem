@@ -10,6 +10,9 @@ body {
 a {
     text-decoration: none;
 }
+section {
+    overflow: hidden;
+}
 /* a:focus {
     outline-style: solid;
     outline-width: 4px;
