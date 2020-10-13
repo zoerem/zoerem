@@ -1247,6 +1247,12 @@ svg:hover .arrow-fixed {
 
 }
 
+/* SKYMIX PAGE ----------------------------------- */
+.skymix{
+    max-width: 700px;
+    margin: 10%;
+}
+
 /* MEDIA QUERIES ----------------------------------*/
 @media screen and (min-width:1800px) {
     .big-screen{
