@@ -653,11 +653,13 @@ svg:hover .arrow-fixed {
 .work-card {
     display: flex;
     flex-wrap: wrap;
-    width: 36%;
-    min-width: 448px;
+    /* width: 36%; */
+    /* min-width: 448px; */
+    max-width: 30.5rem;
     padding: 1.5em 1em 1.5em 2em;
     border-radius: 24px;
     margin-top: 7%;
+    max-height: 50rem;
 }
 .work-card h4 {
     width: 88%;
@@ -668,12 +670,12 @@ svg:hover .arrow-fixed {
     width: 80%;
     margin: 1em 0 0.5;
 }
-.work-card img {
+.work-img {
     margin-top: 48px;
-    justify-self: center;
     height: auto;
     width: 100%;
 }
+
 #buttonWork{
     margin: 1.5em 0 0.5em 0;
 }
@@ -1253,6 +1255,7 @@ svg:hover .arrow-fixed {
     margin: 10%;
 }
 
+
 /* MEDIA QUERIES ----------------------------------*/
 @media screen and (min-width:1800px) {
     .big-screen{
@@ -1483,9 +1486,10 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 .work-h1{
     left: 7%;
 }
-.work-card{
+
+/* .work-card{
     min-width: 86%;
-}
+} */
 
 /* FSC CASE STUDY PAGE */
 .problem-section ul{
