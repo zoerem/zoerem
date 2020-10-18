@@ -1486,6 +1486,12 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 .work-h1{
     left: 7%;
 }
+#work-img{
+    height: auto;
+    width: 100%;
+    max-height: 30rem;
+    max-width: 30rem;
+}
 
 /* .work-card{
     min-width: 86%;
