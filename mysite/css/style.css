@@ -1129,7 +1129,7 @@ svg:hover .arrow-fixed {
 .lofi-usarc img{
     height: auto;
     width: 100%;
-    max-width: 1000px;
+    max-width: 70%;
 }
 .ab-tests{
     display: flex;
@@ -1580,7 +1580,7 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
     width: 100%;
     height: auto;
 }
-#USARC-sketch{
+/* #USARC-sketch{
     background-image: url("../images/usarc/nav-sketches.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1590,7 +1590,11 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
     max-height: 667px;
 }
 #USARC-sketch-img{
-display:none;
+    display:none;
+} */
+
+.lofi-usarc img{
+    max-width: 100%;
 }
 .flex-column{
     width:100%;
