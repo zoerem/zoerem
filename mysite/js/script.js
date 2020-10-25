@@ -61,6 +61,12 @@ $(document).ready(function(){
       $("#img04").attr("src", "../images/FSC-pics/Sarah-Lopez_user-persona.png");
     });
 
+    $("#vote-persona").click(function(){
+      $("#myModalVote").css("display", "block");
+      $("#img05").attr("src", "../images/Vote_Pics/Vote-Persona.png");
+      console.log("vote page working?");
+    });
+
     $(".close").click(function(){
       $(".modal").css("display","none");
     });

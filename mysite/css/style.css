@@ -16,12 +16,18 @@ section {
 /* a:focus {
     outline-style: solid;
     outline-width: 4px;
-    outline-color:rgba(191, 170, 239, 0.9);
+    outline-color:rgba(191, 170, 239, 09);
 } */
 
 .rwd-img{
     width: 100%;
     height: auto;
+}
+sup{
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    line-height: 100%;
 }
 
 /* BUTTONS ---------------------------------------- */
@@ -98,6 +104,18 @@ section {
 }
 .greenDark {
     color:#134D4A;
+}
+.teal{
+    background-color: #36B3BE;
+}
+.blue{
+    background-color: #1477AA;
+}
+.blueText{
+    color: #1477AA;
+}
+.orange{
+    background-color: #FFA842;
 }
 
 /* TYPOGRAPHY ---------------------------------------- */
@@ -240,6 +258,9 @@ h6 {
 }
 .text-wrap-600{
     max-width: 600px;
+}
+.text-wrap-840{
+    max-width: 840px;
 }
 .marg-btm-none{
     margin-bottom: 0;
@@ -704,7 +725,7 @@ svg:hover .arrow-fixed {
     flex-direction: column;
 }
 .page-intro-RT{
-   margin-left: 7%;
+   /* margin-left: ; */
    margin-top: 4%;
 }
 .round-pic{
@@ -1137,7 +1158,7 @@ svg:hover .arrow-fixed {
     max-height: 150px;
 }
 
-#proto-persona, #FSCprotos, #usarc-persona, #fsc-persona{
+#proto-persona, #FSCprotos, #usarc-persona, #fsc-persona, #vote-persona{
     cursor: pointer;
     transition: 0.3s;
     width: 100%;
@@ -1331,6 +1352,56 @@ svg:hover .arrow-fixed {
 
 }
 
+
+/* VOTE PAGE  */
+sub a{
+    color: darkblue;
+}
+.h-blue{
+
+}
+.h-blue h1, .h-blue h2, .h-blue h3, .h-blue h4, .h-blue h5, .h-blue h6{
+    color: #1477AA;
+}
+#vote-int{
+    align-items: center;
+    margin: 0 7%;
+}
+.vote-int-RT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.piechart{
+    max-width: fit-content;
+}
+.piechart-container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+.stats-container{
+    justify-self: flex-end;
+}
+.dot{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1em;
+}
+#img05{
+    background-color: white;
+}
+
+
+
+
 /* SKYMIX PAGE ----------------------------------- */
 .skymix{
     max-width: 700px;
@@ -1356,6 +1427,12 @@ svg:hover .arrow-fixed {
          width: 32%;
      }
  } 
+ @media screen and (max-width: 400px){
+     /* MOBILE POP UPS */
+    .modal{
+        padding-top: 50%;
+    }   
+}
 @media screen and (max-width: 1023px) {  
 /* MOBILE STYLE */
 
@@ -1392,6 +1469,14 @@ p{
     font-size: 16px;
 }
 
+.section-marg-side ul{
+    font-size: 16px;
+    padding-inline-start: 32px;
+}
+.section-marg-side{
+    margin: 0 1em 0 1.5em;
+    width:86%;
+}
 
 /* MOBILE NAV   ---------------------- */
 
@@ -1407,7 +1492,7 @@ p{
     background-color: rgba(234, 233, 235, 0.5);
     margin:0;
     width: 100vw;
-    z-index: 999;
+    z-index: 99;
 }
 
 nav ul {
@@ -1539,7 +1624,7 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 }
 .page-intro-LF{
     width: 86%;
-    margin: 7%;
+    margin: 7% 0;
 }
 .about-h3{
     margin-left:10%;
@@ -1700,6 +1785,34 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 }
 .flex-column{
     width:100%;
+}
+
+#vote-int{
+    flex-direction: column-reverse;
+}
+
+.flex-center{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+.vote-int-LT{
+    margin-top: 2em;   
+    margin-bottom: 0;
+}
+.piechart-container{
+    width: auto;
+}
+.dot{
+    margin-right: 0.25em; 
+}
+
+
+
+/* MOBILE POP UPS */
+
+.modal{
+    z-index: 999; 
 }
 
 
