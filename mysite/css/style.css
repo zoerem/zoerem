@@ -29,9 +29,6 @@ sup{
     font-size: 0.75em;
     line-height: 100%;
 }
-ul li{
-    padding: 0.25em 0;
-}
 
 /* BUTTONS ---------------------------------------- */
 .buttonLT:hover{
@@ -274,6 +271,9 @@ h6 {
 .marg-btm-3{
     margin-bottom: 3.5em;
 }
+.list-pad li{
+    padding: 0.25em 0;
+}
 /* NAVBAR  + HOME HERO----------------------------- */
 .homeHeader{
     height: 648px;
@@ -333,7 +333,7 @@ nav ul {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none; 
-    padding: 16px;
+    padding: 19px 16px;
     margin-right: 1em;
     transition-duration: 0.2s;
 }
@@ -414,16 +414,16 @@ polygon, path {
     transition: all 0.5s ease;
 }
 svg:hover polygon, svg:hover path {
-    transition: all 1s ease;
+    transition: all 0.75s ease;
     fill: #20124d;
 }
           
 svg:hover .arrow {
-    animation: arrow-anim 2.5s ease infinite;
+    animation: arrow-anim 1.5s ease infinite;
     fill: #BFAAEF;
 }
 svg:hover .arrow-fixed {
-    animation: arrow-fixed-anim 2.5s ease infinite;
+    animation: arrow-fixed-anim 2s ease infinite;
 }
 
 @keyframes arrow-anim {
@@ -1284,7 +1284,7 @@ svg:hover .arrow-fixed {
     text-align: center;
 }
 #lofi-usarc2{
-    max-width:600px;
+    max-width:50%;
 }
 #USARC-hifi-desk{
     width: 100%;
@@ -1891,7 +1891,13 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 } */
 
 .lofi-usarc img{
-    max-width: 100%;
+    max-width: 370px;
+}
+.lofi-usarc2{
+    max-width: 370px;
+}
+.lofi-headers{
+    max-width: 350px;
 }
 .flex-column{
     width:100%;
