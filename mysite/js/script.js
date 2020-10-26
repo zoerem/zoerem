@@ -67,6 +67,18 @@ $(document).ready(function(){
       console.log("vote page working?");
     });
 
+    $("#vote-dotvoting").click(function(){
+      $("#myModalDotVote").css("display", "block");
+      $("#img06").attr("src", "../images/Vote_Pics/DOT-VOTING.png");
+      console.log("dotvoting working?")
+    });
+    $("#vote-featurematrix").click(function(){
+      $("#myModalMatrix").css("display", "block");
+      $("#img07").attr("src", "../images/Vote_Pics/VOTE-feature_matrix.png");
+      console.log("matrix working?")
+    });
+
+
     $(".close").click(function(){
       $(".modal").css("display","none");
     });

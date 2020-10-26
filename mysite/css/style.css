@@ -29,6 +29,9 @@ sup{
     font-size: 0.75em;
     line-height: 100%;
 }
+ul li{
+    padding: 0.25em 0;
+}
 
 /* BUTTONS ---------------------------------------- */
 .buttonLT:hover{
@@ -62,7 +65,7 @@ sup{
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
     padding: 16px;
     font-family: 'Red Hat Text', sans-serif;
-    line-height: 100%;
+    line-height: 1;
     font-weight: 600;
     transition-duration: 0.3s; 
 }
@@ -81,8 +84,8 @@ sup{
 .grayPurple{
     background-color: #F8F3FB;
 }
-.grayPeach {
-    background-color:#FFF3ED;
+.grayBlue {
+    background-color:#DDF1F8;
 }
 /* .grayGreen {
     background-color:#E3F1F0;
@@ -96,7 +99,7 @@ sup{
 .grayYellowSM{
     background-color:#F9F0DD;
 }
-.grayDark{
+.grayDark, #grayDark{
     color:#363636;
 }
 .purpleDark{
@@ -116,6 +119,9 @@ sup{
 }
 .orange{
     background-color: #FFA842;
+}
+#orangeDark{
+    color: #D7600B;
 }
 
 /* TYPOGRAPHY ---------------------------------------- */
@@ -190,7 +196,7 @@ h5{
 .h5{
     font-weight: 600;
     font-size: 24px;
-    letter-spacing: 0.15%;
+    letter-spacing: 0.015em;
 }
 h6 {
     font-family: 'Raleway', sans-serif;
@@ -251,7 +257,7 @@ h6 {
     margin-top:1em;
 }
 .section-marg-side{
-    margin: 0px 7%;
+    margin: 0 7%;
 }
 .text-wrap{
     max-width: 500px;
@@ -692,7 +698,6 @@ svg:hover .arrow-fixed {
     padding: 1.5em 1em 1.5em 2em;
     border-radius: 24px;
     margin-top: 7%;
-    max-height: 50rem;
 }
 .work-card h4 {
     width: 88%;
@@ -708,6 +713,7 @@ svg:hover .arrow-fixed {
     height: auto;
     width: 100%;
 }
+
 
 #buttonWork{
     margin: 1.5em 0 0.5em 0;
@@ -754,7 +760,7 @@ svg:hover .arrow-fixed {
     flex-direction: column;
     max-width: 36%;
     min-width: 416px;
-    margin: 0px 16px;
+    margin: 0 16px;
 }
 .process-card img {
     height: auto;
@@ -1108,6 +1114,8 @@ svg:hover .arrow-fixed {
     margin: 0 12% 0 7%; 
 }
 .scale-down{
+    width: 100%;
+    height: auto;
     transform:scale(0.7);
     max-height: 80px;
     margin-right: -3em;
@@ -1158,7 +1166,7 @@ svg:hover .arrow-fixed {
     max-height: 150px;
 }
 
-#proto-persona, #FSCprotos, #usarc-persona, #fsc-persona, #vote-persona{
+#proto-persona, #FSCprotos, #usarc-persona, #fsc-persona, #vote-persona, #vote-dotvoting, #vote-featurematrix{
     cursor: pointer;
     transition: 0.3s;
     width: 100%;
@@ -1399,8 +1407,102 @@ sub a{
     background-color: white;
 }
 
-
-
+.dot-number{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-right: 0.5em;   
+}
+.left-align-3{
+    padding-left: 3.5em;
+}
+.left-align-5{
+    padding-left: 5.5em;
+}
+.vote-IA p{
+    padding-left: 3.5em;
+}
+#img07{
+    background-color: white;
+}
+.flows{
+    max-width: 700px;
+    text-align: center;
+}
+.flex-J-sb{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    flex-wrap: wrap;
+}
+.VOTE-sketch{
+    width: 100%;
+    height: auto;
+    padding: 2em 0;
+    max-width: 80%;
+}
+.VOTE-sketch-container{
+    text-align: center;
+}
+.voteStat-img{
+    width: 100%;
+    height: auto;
+    max-width: 285px;
+}
+.voteStat-p{
+    padding: 0.5em;
+    text-align: center;
+}
+.vote-lofi2, .vote-hifi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 2em;
+}
+.vote-lofi2 img{
+    max-width: 30%
+}
+.vote-hifi img{
+    max-width: 400px;
+    padding-top: 1em;
+}
+.test2-results{
+    padding-left: 3.5em;
+    max-width: 1440px;
+    margin:0.1em;
+}
+#test-p-align{
+    align-items:flex-start;
+}
+.flex-J-sev{
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    flex-wrap: wrap;
+    margin: 0 1em;
+}
+.LP-imgs{
+    max-width: 500px;
+    border: 0.5px solid #d6d6d6;
+    border-radius: 8px;
+}
+.button-stacked{
+    display: flex;
+    flex-direction: column;
+}
+.flex-LP{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.LP-mockups{
+    margin: 2em -2em;
+}
 
 /* SKYMIX PAGE ----------------------------------- */
 .skymix{
@@ -1468,7 +1570,9 @@ h6{
 p{
     font-size: 16px;
 }
-
+.pbig{
+    font-size: 18px;
+}
 .section-marg-side ul{
     font-size: 16px;
     padding-inline-start: 32px;
@@ -1656,14 +1760,20 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 #work-img{
     height: auto;
     width: 100%;
-    max-height: 30rem;
-    max-width: 30rem;
+    /* max-height: 30rem; */
+    /* max-width: 30rem; */
 }
-
-/* .work-card{
-    min-width: 86%;
-} */
-
+.work-img-container{
+    height: auto;
+    width: 100%;
+    max-width: 30rem;   
+}
+.work-img{
+    margin-top: 1em;
+}
+.work-card{
+    padding: 1.5em 1em;
+}
 /* MOBILE-CONTACT */
 
 .contact-intro{
@@ -1806,7 +1916,11 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 .dot{
     margin-right: 0.25em; 
 }
-
+.test2-results{
+    padding-left: 0;
+    margin: 0.75em 0.25em;
+    line-height: 1;
+}
 
 
 /* MOBILE POP UPS */
