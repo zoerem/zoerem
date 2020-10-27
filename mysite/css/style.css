@@ -57,7 +57,6 @@ sup{
     border: solid 2.75px;
     border-color: #20124d;
     display: inline-block;
-    text-decoration: none;
     text-align: center;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
     padding: 16px;
@@ -69,6 +68,9 @@ sup{
 .button2:hover{
     background-color:#F4DFB8;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.button-box{
+
 }
 
 /* COLORS ---------------------------------------- */
