@@ -1238,11 +1238,14 @@ svg:hover .arrow-fixed {
 .lofi-usarc{
     display: flex;
     justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .lofi-usarc img{
     height: auto;
     width: 100%;
-    max-width: 70%;
+    max-width: 90%;
+    max-height: 90%;
 }
 .ab-tests{
     display: flex;
@@ -1253,7 +1256,6 @@ svg:hover .arrow-fixed {
 .lofi-headers{
     width: 100%;
     height: auto;
-    max-width: 375px;
 }
 .flex-wrap{
     display: flex;
@@ -1893,14 +1895,15 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 } */
 
 .lofi-usarc img{
-    max-width: 370px;
+    width: 360px;
+    height: 372px; 
 }
-.lofi-usarc2{
-    max-width: 370px;
+
+#lofi-usarc2{
+    width: 360px;
+    height: 562px;
 }
-.lofi-headers{
-    max-width: 350px;
-}
+
 .flex-column{
     width:100%;
 }
