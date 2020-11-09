@@ -69,9 +69,9 @@ sup{
     background-color:#F4DFB8;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
 }
-.button-box{
+/* .button-box{
 
-}
+} */
 
 /* COLORS ---------------------------------------- */
 .grayNeutral{
@@ -1370,7 +1370,7 @@ sub a{
     color: darkblue;
 }
 .h-blue{
-
+    color: #1477AA;
 }
 .h-blue h1, .h-blue h2, .h-blue h3, .h-blue h4, .h-blue h5, .h-blue h6{
     color: #1477AA;
