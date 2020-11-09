@@ -7,3 +7,7 @@ Redirect /pages/usarc /pages/usarc.html
 Redirect /pages/vote /pages/vote.html
 
 Redirect /pages/webdev /pages/webdev.html
+
+Redirect /about /pages/about.html
+
+Redirect /work /pages/work.html

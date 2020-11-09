@@ -755,7 +755,7 @@ svg:hover .arrow-fixed {
     flex-wrap: wrap;
     margin-left: 7%;
     width: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .process-card {
     display: flex;
