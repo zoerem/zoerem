@@ -1,1 +1,9 @@
 ErrorDocument 404 /404.html
+
+Redirect /pages/fsc /pages/fsc.html
+
+Redirect /pages/usarc /pages/usarc.html
+
+Redirect /pages/vote /pages/vote.html
+
+Redirect /pages/webdev /pages/webdev.html
