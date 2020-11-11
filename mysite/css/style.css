@@ -830,6 +830,7 @@ svg:hover .arrow-fixed {
     flex-direction: column;
     align-items: flex-end;
     margin-top: 208px;
+    padding-bottom:104px;
 }
 .contact-section p{
     margin-right: 20%;
