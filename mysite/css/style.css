@@ -1245,8 +1245,8 @@ svg:hover .arrow-fixed {
 .lofi-usarc img{
     height: auto;
     width: 100%;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 40%;
+    max-height: 40%;
 }
 .ab-tests{
     display: flex;
@@ -1257,6 +1257,7 @@ svg:hover .arrow-fixed {
 .lofi-headers{
     width: 100%;
     height: auto;
+    max-width: 600px;
 }
 .flex-wrap{
     display: flex;
@@ -1288,9 +1289,7 @@ svg:hover .arrow-fixed {
 .text-center{
     text-align: center;
 }
-#lofi-usarc2{
-    max-width:50%;
-}
+
 #USARC-hifi-desk{
     width: 100%;
     height: auto;
@@ -1306,10 +1305,10 @@ svg:hover .arrow-fixed {
 }
 .hifi-iterations{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 4% 7%;
 }
+
 
 /* WEBDEV PAGE ------------------------------------- */
 .webdev-img img{
@@ -1882,6 +1881,9 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
     width: 100%;
     height: auto;
 }
+.hifi-iterations{
+    flex-wrap: wrap;
+}
 /* #USARC-sketch{
     background-image: url("../images/usarc/nav-sketches.png");
     background-size: cover;
@@ -1896,14 +1898,12 @@ nav a:hover, .navListItem:hover, #homeLink:hover {
 } */
 
 .lofi-usarc img{
-    width: 360px;
-    height: 372px; 
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+    /* justify-content: center; */
 }
 
-#lofi-usarc2{
-    width: 360px;
-    height: 562px;
-}
 
 .flex-column{
     width:100%;
