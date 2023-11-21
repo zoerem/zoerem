@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+– I have not been in here in years. So sad. 
+
 - 🔭 I’m currently working on putting the finishing touches on my portfolio! 
 - 🌱 I’m loving learning Javascript but I'm a newbie. 
 
