@@ -2,8 +2,6 @@
 
 – I have not been in here in years. So sad. 
 
-- 🔭 I’m currently working on putting the finishing touches on my portfolio! 
-- 🌱 I’m loving learning Javascript but I'm a newbie. 
 
 <!--
 **zoerem/zoerem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
